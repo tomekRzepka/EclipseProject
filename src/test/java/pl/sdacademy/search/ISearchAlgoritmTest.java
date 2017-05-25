@@ -29,7 +29,7 @@ public class ISearchAlgoritmTest {
 		searchAlgorithm = new SearchAlghoritm();
 	}
 
-	private boolean shouldFindElementInArray(int elementToFind, int expectedElement, int[] array) {
+	private boolean shouldFindElementInArray(int elementToFind, int expectedElement, int[] array) throws Exception {
 		// given
 
 		// when
